@@ -1,0 +1,155 @@
+body {
+    max-width: 95%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif; /* FUENTE */
+    background-color: #f5e6f8;;
+  }
+
+  .navbar {
+    background-color: #2c3e50;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+    
+/* estilos seccion 1 */
+
+.section1 {
+    display: flex;
+    background-color: #f5e6f8;
+  }
+  
+  .video {
+    width: 50%;
+    height: 100%;
+    padding: 7px;
+  }
+  
+  .video iframe {
+    width: 100%;
+  }
+  
+  .texto {
+    flex: 1;
+    padding: 20px;
+  }
+  
+/* estilos seccion 2 */
+
+.seccion2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5e6f8;
+  }
+  
+  .seccion2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imagen {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagen img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contenido {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cont-art {
+    width: 80%;
+  }
+  
+  .cont-art h2 {
+    border-bottom: 1px solid black;
+  }
+
+  .seccion3 {
+    padding: 50px 0;
+    background-color: #f5e6f8;;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 0 15px;
+  }
+  
+  .col h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .col p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .col img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .seccion4 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5e6f8;
+  }
+  
+  .seccion4 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contenido {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cont-art {
+    width: 80%;
+  }
+  
+  .cont-art h2 {
+    border-bottom: 1px solid black;
+  }
+  
+  .imagen {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagen img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #f5e6f8;
+    color: white;
+  }
+  
