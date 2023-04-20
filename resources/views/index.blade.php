@@ -41,11 +41,11 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="contactoDropdown">
                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#contactModal">Contacto</a>
-                      <a class="dropdown-item" href="{{ route('registros.index') }}">Registros</a>
+
                     </div>
                 </li>
             </ul>
-            
+    
 		</div>
 	</nav>        
 </header>
@@ -75,9 +75,9 @@
           <h2>Nuestros Servicios</h2>
         </center>
         <p>Asesoría tributaria: Nuestro equipo profesional y especializado, permite ajustar la asesoría con base en las necesidades de los clientes, analizando las alternativas legales para optimizar el uso de la normatividad y la carga tributaria</p>
-        <p>Outsourcing: Las empresas frecuentemente se deciden por la tercerización para poder concentrarse en las actividades centrales del negocio</p>
+        <p>Outsourcing: Las empresas frecuentemente se deciden por la tercerización para poder concentrarse en las actividades centrales del negocio.</p>
         <p>Auditoria externa:El servicio de Auditoría Externa tiene como objetivo expresar una opinión independiente en relación con la razonabilidad de los Estados Financieros de las empresas o ciertas áreas de negocios en cuyo caso utilizamos procedimientos previamente convenidos</p>
-        <p>Revisoría Fiscal: Nuestros profesionales trabajan con usted para ayudarlo a comprender cuáles son los riesgos y cómo abordarlos exitosamente</p>
+        <p>Revisoría Fiscal: Nuestros profesionales trabajan con usted para ayudarlo a comprender cuáles son los riesgos y cómo abordarlos exitosamente.</p>
         <li><a href="servicios.html">Lee Mas...</a></li>
       </div>
     </div>

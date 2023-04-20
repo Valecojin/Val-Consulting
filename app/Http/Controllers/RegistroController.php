@@ -68,20 +68,21 @@ class RegistroController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'Nombre' => 'required|max:255',
-            'Correo' => 'required|email|unique:registros,Correo,'.$id.'|max:255',
-            'Telefono' => 'required|max:20',
-            'Mensaje' => 'required',
+            'Nombre' => 'required|string|max:255',
+            'Correo' => 'required|email|max:255',
+            'Telefono' => 'required|string|max:255',
+            'Mensaje' => 'required|string',
         ]);
-
+    
         $registro = Registro::find($id);
-        $registro->Nombre = $request->Nombre;
-        $registro->Correo = $request->Correo;
-        $registro->Telefono = $request->Telefono;
-        $registro->Mensaje = $request->Mensaje;
+    
+        $registro->Nombre = $request->input('Nombre');
+        $registro->Correo = $request->input('Correo');
+        $registro->Telefono = $request->input('Telefono');
+        $registro->Mensaje = $request->input('Mensaje');
+    
         $registro->save();
-
-        return response()->json(['mensaje' => 'Registro modificado satisfactoriamente', 'registro' => $registro]);
+        return redirect()->route('registros.index');
     }
 
     /**
